@@ -1,0 +1,105 @@
+.app__aboutus{
+    display: flex;
+
+    width: 100%;
+    height: 117vh;
+}
+
+.app__aboutus-greysubstrate{
+    display: flex;
+
+    width: 60vw;
+    height: 117vh;
+
+    background: var(--color-greysubstrateaboutus);
+}
+
+.app__aboutus-stairsimage{
+    display: flex;
+}
+
+.app__aboutus-stairsimage img{
+    height: 117vh;
+}
+
+.app__aboutus-textdecoratives{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    width: 72%;
+    height: 117vh;
+}
+
+.pinksubstrate{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    width: 64.6vw;
+    height: 47.2vw;
+    background: #EEEBEB;
+    box-shadow: var(--box-shadow);
+}
+
+.ArrowFife{
+    display: flex;
+    justify-content: right;
+    margin-top: 7.031vw;
+    margin-bottom: 2.448vw;
+
+}
+
+.ArrowFife img{
+    width: 52.135vw;
+
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+
+}
+
+.Review{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+
+    color: var(--color-black);
+    display: flex;
+    margin-bottom: 3.073vw;
+    margin-left: 4.948vw;
+}
+
+.TwoHeaders{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.FullName{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.646vw;
+    /* identical to box height */
+
+
+    color: var(--color-black);
+    margin-right: 2.604vw;
+}
+
+.Abbreviation{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.417vw;
+    /* identical to box height */
+
+
+    color: var(--color-bigfmasignandgreystars);
+    margin-right: 0.521vw;
+}

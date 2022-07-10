@@ -1,0 +1,37 @@
+
+
+.PositionTextArea{/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    
+}
+
+.content-buttonandbutton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 0.781vw;
+}
+
+.buttonandbutton-filebutton{
+    display: flex;
+}
+
+
+
+.buttonandbutton-commitbutton{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+
+    color: var(--color-white);
+    
+    padding: 0.885vw 0.625vw 0.885vw 5.469vw;
+    margin-left: 1.302vw;
+    background: var(--color-black);
+    box-shadow: var(--box-shadow);
+
+    
+    border-style: none;
+    cursor: pointer;
+}

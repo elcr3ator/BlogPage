@@ -1,0 +1,133 @@
+.app_footer_mainSubstrate{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #112021;
+    width: 100%;
+    height: 44.5297vh;   
+}
+.mainSubstrate-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+    padding: 4.688vw 5.573vw;
+}
+.mainSusbstrate-content-ads{
+    display: flex;
+}
+.selection-column{
+    flex-direction: column;
+    display: flex;
+} 
+
+.phone-label-phone{
+    display: flex;
+    margin-top: 3.073vw;
+}
+.phone-label-phone-label{
+    margin-right: 1.615vw;
+}
+.mainSusbstrate-content-ads p{
+    margin-bottom: 1.042vw;
+
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.146vw;
+    color: var(--color-white);
+}
+.mainSusbstrate-content-one{
+    display: flex;
+    /* margin: 19px 150px 0px 80px; */
+    justify-content: space-between;
+    /* margin: 1.823vh 7.473vw 0vh 3.986vw; */
+    /* width: 389px; */
+    width: 20.260vw;
+}
+.mainSusbstrate-content-phone-label{
+    display: flex;
+    /* margin: 6.046vh 7.473vw 0vh 3.986vw; */
+}
+.mainSusbstrate-content-phone-label, .mainSusbstrate-content-mail-label{
+    display: flex;
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.885vw;
+    color: var(--color-white);
+    
+}
+.mainSusbstrate-content-phone{
+    display: flex;
+    /* margin: 0.671vh 7.473vw 0px 3.986vw; */
+    /* width: 187px; */
+    /* width: 9.740vw; */
+}
+.mainSusbstrate-content-phone, .mainSusbstrate-content-mail, .mainSusbstrate-content-one p{
+    display: flex;
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.885vw;
+    color: var(--color-footersections);
+    
+}
+.mainSusbstrate-content-mail-label{
+    /* 11.3602vw */
+    display: flex;
+}
+.mainSusbstrate-content-mail{
+    display: flex;
+    /* margin: 0.671vh 0vw 0vh -4.0vw;
+    width: 9.740vw; */
+}
+
+.mainSusbstrate-content-about, .mainSusbstrate-content-support,
+ .mainSusbstrate-content-social, .mainSusbstrate-content-product{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mainSubstrate-content-side-p{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.146vw;
+    color: var(--color-white);
+    margin-bottom: 1.042vw;
+   
+}
+.mainSusbstrate-content-about a, .mainSusbstrate-content-support a,
+ .mainSusbstrate-content-social a, .mainSusbstrate-content-product a{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.885vw;
+    margin-bottom: 0.781vw;
+
+
+    cursor: pointer;
+    
+    color: var(--color-footersections);
+}
+
+.app__review_typereview-blurSubstrate{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+    width: 100%;
+    height: 100vh;
+
+    background: var(--blur-background);
+    backdrop-filter: blur(var(--blur));
+    /* Note: backdrop-filter has minimal browser support */
+    z-index: 10;
+}
+
+

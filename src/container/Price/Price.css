@@ -1,0 +1,491 @@
+.app__price{
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+    width: 100%;
+    height: 117vh;
+    background: var(--color-white);
+}
+
+.app__price-leftline{
+    width: 2%;
+    height: 100%;
+    
+    margin-right: 3.5vw;
+    background-color: var(--color-pink);
+    box-shadow: var(--box-shadow);
+}
+
+.app__price-information{
+    display: flex;
+    height: 100%;
+    
+    margin-top: 4vw;
+    flex-direction: column;
+}
+
+.ProductInformation{
+    display: flex;
+    
+    align-items:flex-start;
+    flex-direction: column;
+    
+    margin-left: 3vw;
+    margin-top: 6.5vw;
+}
+
+.ProductSign{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    
+    
+    color: var(--color-nameofsections);
+}
+
+.ProductName{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.6vw;
+    
+    margin-bottom: 0.3vw;
+    color: var(--color-black);
+}
+
+.ProductPrice{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    
+    margin-bottom: 1.1vw;
+    color: var(--color-namepriceinothersequence);
+}
+
+.ProductDescription{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    
+    color: var(--color-black);
+}
+
+.ProductDescription-max{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    
+    color: var(--color-black);
+}
+
+.ProductDescriptionBR{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    
+    margin-bottom: 1.2vw;
+    color: var(--color-black);
+}
+
+.ProductDescriptionBR-max{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    
+    margin-bottom: 1.2vw;
+    color: var(--color-black);
+}
+
+.ProductPropose{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    
+    margin-bottom: 0.7vw;
+    color: var(--color-black);
+}
+
+.ProductPropose-list{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    
+    margin-left: 0.5vw;
+}
+
+.ProductListElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 0.6vw;
+}
+
+.ListNumber{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.52vw;
+    
+    margin-top: 0.2vw;
+    color: var(--color-black);
+}
+
+.ListDash{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    
+    margin-right: 0.5vw;
+    color: var(--color-black);
+}
+
+.ListDescription{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    
+    color: var(--color-black);
+}
+
+.DateUs{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.72vw;
+    
+    padding: 0.8vw 1.9vw;
+    margin-top: 2.6vw;
+    color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    background: var(--color-black);
+    
+    cursor: pointer;
+}
+
+.arrowfour{
+    display: flex;
+    position: absolute;
+
+    height: 117vh;
+    right: 3.64vw;
+
+
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.arrowfour img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.app__price-products{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+
+    right: -12vw;
+    height: 100%;
+}
+
+.Main,
+.Additional{
+    display: flex;
+    justify-content: center;
+    margin-right: 3.9vw;
+    flex-direction: column;
+}
+
+.Text-Web-Maxima,
+.Text-Web-Optima{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Main img{
+    width: 16.3vw;
+    height: 24.42vw;
+
+
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+
+    object-fit: cover;
+    filter: drop-shadow(var(--box-shadowforpicturesprice));
+}
+
+
+.Additional img{
+    width: 14.21vw;
+    height: 21.45vw;
+
+
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+
+    object-fit: cover;
+    filter: drop-shadow(var(--box-shadowforpicturesprice));
+}
+
+.Web-Limitless{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Web-Limitless img{
+    width: 14.21vw;
+    height: 21.45vw;
+
+
+    object-fit: cover;
+    filter: drop-shadow(var(--box-shadowforunactivepicture));
+}
+
+.ProductListName{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.88vw;
+    /* identical to box height */
+
+    color: var(--color-nameactiveproductinsequence);
+    margin-top: 1.35vw;
+}
+
+.ProductListPrice{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.78vw;
+
+    color: var(--color-namepriceinothersequence);
+    margin-top: 0.41vw;
+}
+
+.ProductListNameDecreased{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.68vw;
+    /* identical to box height */
+
+    color: var(--color-namepriceinothersequence);
+    margin-top: 1.35vw;
+}
+
+.ProductListPriceDecreased{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.62vw;
+
+    color: var(--color-priceinothersequenceprice);
+    margin-top: 0.42vw;
+}
+
+.ProductListNameWhite{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.68vw;
+    /* identical to box height */
+
+    color: var(--color-white);
+    margin-top: 1.35vw;
+}
+
+.ProductListPriceWhite{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.62vw;
+
+    color: var(--color-white);
+    margin-top: 0.42vw;
+}
+
+/* A LOT OF KEY FRAMES !!!!!!*/
+
+.NameDiv{
+    animation: slideLeftName 1s ease-in-out both;
+}
+
+.NameDiv p{
+    white-space: nowrap;
+}
+
+.NameDiv-max{
+    animation: slideLeftName-max 1s ease-in-out both;
+}
+
+.NameDiv-max p{
+    white-space: nowrap;
+}
+
+.PriceDiv{
+    animation: slideLeftPrice .25s ease-in-out both;
+    animation-delay: .2s;
+}
+
+.PriceDiv p{
+    white-space: nowrap;
+}
+
+.PriceDiv-max{
+    animation: slideLeftPrice-max .25s ease-in-out both;
+    animation-delay: .2s;
+}
+
+.PriceDiv-max p{
+    white-space: nowrap;
+}
+
+.DescriptionDiv{
+    animation: slideLeftDescription .4s ease-in-out both;
+    animation-delay: .3s;
+}
+
+.DescriptionDiv p{
+    white-space: nowrap;
+}
+
+.DescriptionBRDiv{
+    animation: slideLeftDescriptionBR .5s ease-in-out both;
+    animation-delay: .4s;
+}
+
+.DescriptionBRDiv-max{
+    animation: slideLeftDescriptionBR-max .5s ease-in-out both;
+    animation-delay: .4s;
+}
+
+.DescriptionBRDiv p{
+    white-space: nowrap;
+}
+
+.DescriptionBRDiv-max p{
+    white-space: nowrap;
+}
+
+.ProposeDiv{
+    animation: slideLeftPropose .5s ease-in-out both;
+    animation-delay: 1s;
+}
+
+.ProposeDiv p{
+    white-space: nowrap;
+}
+
+.ProductListElement{
+    animation: slideLeftList .4s ease-in-out both;
+    animation-delay: 1.2s;
+}
+
+.ProductListElement p{
+    white-space: nowrap;
+}
+
+/*
+.ListZero{ animation-delay: 1.2s; }
+.ListOne{ animation-delay: 1.4s; }
+.ListTwo{ animation-delay: 1.6s; }
+.ListThree{ animation-delay: 1.8s; }
+.ListFour{ animation-delay: 2s; }
+.ListFife{ animation-delay: 2s; }
+.ListSix{ animation-delay: 2.4s; }
+*/
+@keyframes slideLeftName {
+    0%{
+        width: 0px;
+    }100%{
+        width: 60%;
+    }
+}
+
+@keyframes slideLeftName-max {
+    0%{
+        width: 0px;
+    }100%{
+        width: 65%;
+    }
+}
+
+@keyframes slideLeftPrice {
+    0%{
+        width: 0px;
+    }100%{
+        width: 16%;
+    }
+}
+
+@keyframes slideLeftPrice-max {
+    0%{
+        width: 0px;
+    }100%{
+        width: 20%;
+    }
+}
+
+@keyframes slideLeftDescription {
+    0%{
+        width: 0px;
+    }100%{
+        width: 100%;
+    } 
+}
+
+@keyframes slideLeftDescriptionBR {
+    0%{
+        width: 0px;
+    }100%{
+        width: 50%;
+    } 
+}
+
+@keyframes slideLeftDescriptionBR-max {
+    0%{
+        width: 0px;
+    }100%{
+        width: 70%;
+    } 
+}
+
+@keyframes slideLeftPropose {
+    0%{
+        width: 0px;
+    }100%{
+        width: 50%;
+    } 
+}
+
+@keyframes slideLeftList {
+    0%{
+        width: 0px;
+    }100%{
+        width: 100%;
+    } 
+}

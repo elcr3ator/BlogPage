@@ -1,0 +1,256 @@
+.app__review_mainSubstrate{
+    display: flex;
+
+    width: 86%;
+    height: 90%;
+    margin: auto;
+
+
+    background: var(--color-backgroundfortypereview);
+    box-shadow: var(--box-shadow);
+}
+
+.mainSubstrate-content{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.content-form{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+
+    flex-direction: column;
+    margin-right: 8.177vw;
+}
+
+.content-form-arrowSeven{
+    position: absolute;
+    display: flex;
+    position: absolute;
+    top: 5.208vw;
+}
+
+.content-form-arrowSeven img{
+    width: 63.724vw;
+    height: 9.635vw;
+}
+
+.content-form-fields{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 7.813vw;
+}
+
+.form-field{
+    display: flex;
+    margin-bottom: 1.823vw;
+}
+
+
+.number{
+    display: flex;
+
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.604vw;
+    /* identical to box height */
+
+
+    padding-right: 0.625vw;
+    padding-bottom: 0.833vw;
+    color: var(--color-black);
+    transition: all 0.3s ease;
+}
+
+.numberone{
+    padding-right: 0.885vw;
+}
+
+.form-form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form-form input[type="text"]{
+    width: 23.438vw;
+    border-style: none;
+    padding-bottom: 0.521vw;
+    padding-right: 0.208vw;
+    border-bottom: 1px solid var(--color-black);
+
+
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;    
+    /* identical to box height */
+
+    background: transparent;
+    text-align: right;
+
+    color: var(--color-black);
+}
+
+
+.form-form input:focus{
+    outline: none;
+}
+
+.form-form input:focus ~ .field-lable,
+.form-form input:valid ~ .field-lable{
+    transform: translateY(-1.823vw);
+    font-size: 12px;
+
+    color: var(--color-fieldlable);
+}
+
+
+.field-lable{
+    position: absolute;
+    overflow: hidden;
+    padding-bottom: 0.521vw;
+    padding-right: 0.208vw;
+    pointer-events: none;
+}
+
+.field-lable{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    /* identical to box height */
+
+    text-align: right;
+    pointer-events: none;
+    color: var(--color-black);
+
+    transition: all 0.3s ease;
+}
+
+.field-lable p {
+    opacity: 0;
+}
+
+.field-lable-error{
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+
+    padding-bottom: 0.521vw;
+    padding-right: 0.208vw;
+}
+
+.field-lable-error p{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    /* identical to box height */
+
+    text-align: right;
+    pointer-events: none;
+    opacity: 0;
+    color: var(--color-errorlablefortypereview);
+
+}
+
+
+.animSlideDownOne{
+    animation: slideDown .7s ease both;
+    animation-delay: .2s;
+}
+.animSlideDownTwo{
+    animation: slideDown .7s ease both;
+    animation-delay: .4s;
+}
+.animSlideDownThree{
+    animation: slideDown .7s ease both;
+    animation-delay: .6s;
+}
+.animSlideDownFour{
+    animation: slideDown .7s ease both;
+    animation-delay: .8s;
+}
+
+@keyframes slideUp {
+    0% {transform: translateY(2.083vw);}
+    100% {transform: translateY(0);opacity:1;}
+}
+
+@keyframes slideDown {
+    0% {transform: translateY(-2.083vw);}
+    100% {transform: translateY(0);opacity:1;}
+}
+
+.content-image{
+    display: flex;
+    align-items: flex-end;
+
+    width: 45%;
+    height: 100%;
+}
+
+.content-image img{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+
+
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.content-starandbutton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-top: 0.781vw;
+}
+
+.starandbutton-starrate svg{
+    width: 1.1vw;
+    margin-right: 0.625vw;
+
+    fill: var(--color-bigfmasignandgreystars);
+    transition: all 0.3s ease;
+}
+
+.starandbutton-starrate{
+    display: flex;
+}
+
+#in-rate{
+    fill: var(--color-star)!important;
+}
+
+#in-hover{
+    fill: var(--color-starhover)!important;
+}
+
+.starandbutton-button{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+
+    color: var(--color-white);
+    
+    padding: 0.885vw 0.625vw 0.885vw 5.469vw;
+    margin-left: 1.302vw;
+    background: #343434;
+    box-shadow: var(--box-shadow);
+
+    
+    border-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,215 @@
+.app__review{
+    display: flex;
+    align-items: baseline;
+
+    overflow: hidden;
+    width: 100%;
+    height: 117vh;
+    background: var(--color-pink);
+}
+
+.app__review-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+}
+
+.Arrowsix{
+    display: flex;
+    position: absolute;
+    padding-bottom: 1.042vw;
+    padding-left: 18.854vw;
+}
+
+.Arrowsix img{
+    display: flex;
+    position: absolute;
+
+    width: 57.396vw;
+    height: 56.042vw;
+
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+
+    margin-top: 2.604vw;
+    margin-left: 4.688vw;
+}
+
+.topbar-createreview{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.72vw;
+    
+    padding: 0.8vw 1.9vw;
+    color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    background: var(--color-black);
+    
+    border-style: none;
+    cursor: pointer;
+}
+
+.topbar-reviewsign{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.823vw;
+
+    margin-top: 0.260vw;
+    margin-left: 1.458vw;
+    color: var(--color-nameofsections);
+}
+
+.topbar img{
+    width: 0.9vw;
+    height: 0.9vw;
+
+    margin-top: 0.156vw;
+    margin-left: 0.781vw;
+    margin-right: 0.365vw;
+}   
+
+.topbar-rate{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.823vw;
+
+    margin-top: 0.417vw;
+    color: var(--color-nameofsections);
+}
+
+.Reviews{
+    display: grid;
+    align-items: center;
+    width: 95%;
+    height: 93.3vh;
+
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    overflow: auto;
+    gap: 1.042vw;
+
+
+    z-index: 9;
+    margin-top: 3.021vw;
+    margin-left: 4.688vw;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 36.615vw;
+    height: 22.135vw;
+
+    background: var(--color-white);
+}
+
+.ReviewContent{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.823vw 2.604vw;
+}
+
+.NamePositionCompanyAndStars{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1.563vw;
+}
+
+.NameAndPosition{
+    display: flex;
+    flex-direction: column;
+}
+
+.Stars{
+    display: flex;
+}
+
+.Stars img{
+    width: 1.42vw;
+    height: 1.42vw;
+
+    padding-right: 0.521vw;
+}
+
+.Name{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.563vw;
+    /* identical to box height */
+
+
+    margin-bottom: 0.365vw;
+    color: var(--color-black);
+}
+
+.Position{
+    display: flex;
+}
+
+.Position p{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    /* identical to box height */
+
+
+    color: var(--review-positionandcompany);
+}
+
+.OfSign{
+    padding: 0vw 0.313vw;
+}
+
+.NameOfCompany{
+    text-decoration-line: underline;
+}
+
+.UserReview{
+    max-height: 12.396vw;
+    overflow-y: auto;
+}
+
+.UserReview p{
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.302vw;
+
+    color: var(--color-black);
+}
+
+.app__review_typereview-blurSubstrate{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+    width: 100%;
+    height: 100vh;
+
+    background: var(--blur-background);
+    backdrop-filter: blur(var(--blur));
+    /* Note: backdrop-filter has minimal browser support */
+    z-index: 10;
+}
